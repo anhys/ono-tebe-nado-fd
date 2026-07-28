@@ -1,7 +1,7 @@
 body {
-  margin: 0 auto;
   max-width: 1100px;
-  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
   background: #fff;
 }
@@ -20,7 +20,7 @@ body {
   list-style: circle;
 }
 
-.header__links-list_item_no-bullit {
+.header__links-list-item_no-bullit {
   list-style: none;
 }
 
@@ -51,10 +51,10 @@ body {
 .address {
   display: flex;
   flex-direction: column;
+  justify-self: end;
   align-items: flex-start;
   max-width: 240px;
   font-style: normal;
-  justify-self: end;
 }
 
 .address__link {
@@ -80,7 +80,7 @@ body {
   justify-content: space-between;
   min-height: 757px;
   padding: 10.3125rem 0 3.125rem;
-  background-image: url(../images/lotus-flower.jpg);
+  background-image: url('../images/lotus-flower.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -209,15 +209,15 @@ body {
 }
 
 .card_type_film {
-  background-image: url(../images/lot_1.jpg);
+  background-image: url('../images/lot_1.jpg');
 }
 
 .card_type_book {
-  background-image: url(../images/lot_2.jpg);
+  background-image: url('../images/lot_2.jpg');
 }
 
 .card_type_picture {
-  background-image: url(../images/lot_3.jpg);
+  background-image: url('../images/lot_3.jpg');
 }
 
 .card .overlay {
@@ -266,8 +266,8 @@ body {
 .about {
   display: grid;
   grid-template-columns: 240px 1fr;
-  column-gap: 4.6875rem;
   align-items: start;
+  column-gap: 4.6875rem;
   padding: 7.5rem 1.5rem 0;
 }
 
@@ -277,9 +277,9 @@ body {
 }
 
 .about__column_logo {
+  justify-self: start;
   padding-top: 2.1875rem;
   padding-left: 2.9375rem;
-  justify-self: start;
 }
 
 .about__logo {
@@ -328,8 +328,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
-  padding: 5rem 3.125rem;
   margin-top: 6.25rem;
+  padding: 5rem 3.125rem;
 }
 
 .footer .address {
