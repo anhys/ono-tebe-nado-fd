@@ -116,6 +116,10 @@ body {
   text-align: left;
 }
 
+.letter-spacing-extended {
+  letter-spacing: 1.875rem;
+}
+
 .aligned-text_center {
   margin-left: 0.9375rem;
   text-align: center;
@@ -125,10 +129,6 @@ body {
   width: auto;
   margin-right: -1.875rem;
   text-align: right;
-}
-
-.letter-spacing-extended {
-  letter-spacing: 1.875rem;
 }
 
 .no-letter-spacing {
@@ -212,14 +212,6 @@ body {
   background-image: url('../images/lot_1.jpg');
 }
 
-.card_type_book {
-  background-image: url('../images/lot_2.jpg');
-}
-
-.card_type_picture {
-  background-image: url('../images/lot_3.jpg');
-}
-
 .card .overlay {
   z-index: 1;
 }
@@ -248,6 +240,14 @@ body {
   color: #fff;
   font-size: 1.25rem;
   line-height: 1.5rem;
+}
+
+.card_type_book {
+  background-image: url('../images/lot_2.jpg');
+}
+
+.card_type_picture {
+  background-image: url('../images/lot_3.jpg');
 }
 
 .lots__look-more-link {
