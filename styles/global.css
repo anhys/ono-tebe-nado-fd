@@ -1,5 +1,4 @@
 @layer reset {
-  
   *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -15,32 +14,8 @@
   }
 
   body {
-    line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-
-  img, picture, video, canvas, svg {
-    display: block;
-    max-inline-size: 100%;
-    height: auto;
-  }
-
-  input, button, textarea, select {
-    font: inherit;
-    color: inherit;
-    letter-spacing: inherit;
-  }
-
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-
-  h1, h2, h3, h4 {
-    text-wrap: balance;
-  }
-  p, li {
-    text-wrap: pretty;
   }
 
   ul, ol {
@@ -48,10 +23,20 @@
     padding: 0;
   }
 
+  button {
+  font: inherit;
+}
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-inline-size: 100%;
+    height: auto;
+  }
+
   a {
     text-decoration: none;
     color: inherit;
-}
+  }
 
   @media (prefers-reduced-motion: reduce) {
     html:focus-within {
