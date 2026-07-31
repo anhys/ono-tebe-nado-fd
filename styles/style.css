@@ -4,28 +4,6 @@
   background: rgba(0, 0, 0, 0.6);
 }
 
-.address {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-style: normal;
-  font-size: 1.125rem;
-  line-height: 1.5rem;
-  color: #000;
-}
-
-.address__link {
-  text-decoration: underline;
-  text-decoration-thickness: 0.05em;
-  text-decoration-skip-ink: none;
-  text-underline-offset: 0.25em;
-}
-
-.address__text {
-  max-width: 15rem;
-  margin-top: 0.0625rem;
-}
-
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -40,9 +18,9 @@
 .header__links-list {
   display: flex;
   gap: 2.0625rem;
-  list-style: circle;
   font-size: 1.125rem;
   line-height: 1.3125rem;
+  list-style: circle;
 }
 
 .header__links-list-item_no-bullet {
@@ -53,8 +31,8 @@
   display: inline-block;
   text-decoration: underline;
   text-decoration-thickness: 0.05em;
-  text-underline-offset: 0.25em;
   text-decoration-skip-ink: none;
+  text-underline-offset: 0.25em;
 }
 
 .header__link_active {
@@ -71,17 +49,39 @@
 }
 
 .header__address {
-  margin-top: 0.1875rem;
   justify-self: end;
+  margin-top: 0.1875rem;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #000;
+  font-size: 1.125rem;
+  font-style: normal;
+  line-height: 1.5rem;
+}
+
+.address__link {
+  text-decoration: underline;
+  text-decoration-thickness: 0.05em;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 0.25em;
+}
+
+.address__text {
+  max-width: 15rem;
+  margin-top: 0.0625rem;
 }
 
 .cover {
   position: relative;
   padding: 10.3125rem 0 3.125rem;
-  background-image: url(../images/lotus-flower.jpg);
-  background-size: cover;
-  background-position: center;
   color: #fff;
+  background-image: url(../images/lotus-flower.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .cover__title {
@@ -90,8 +90,8 @@
   flex-direction: column;
   gap: 1.25rem;
   margin: 0 3.125rem 6.625rem;
-  font-size: 6.25rem;
   font-weight: 700;
+  font-size: 6.25rem;
   line-height: 1.15;
   text-transform: uppercase;
 }
@@ -105,14 +105,14 @@
 }
 
 .aligned-text_center {
-  text-align: center;
   padding-left: 0.3em;
+  text-align: center;
 }
 
 .aligned-text_right {
-  text-align: right;
-  padding-left: 0.3em;
   margin-right: -1.75rem;
+  padding-left: 0.3em;
+  text-align: right;
 }
 
 .letter-spacing-extended {
@@ -122,8 +122,8 @@
 .cover__description {
   position: relative;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   gap: 2.5rem;
   padding: 0 3.125rem;
 }
@@ -131,20 +131,20 @@
 .cover__description-text {
   font-size: 1.375rem;
   line-height: 1.75rem;
-  word-spacing: 0.9em;
   text-transform: uppercase;
+  word-spacing: 0.9em;
 }
 
 .bet-button {
   width: 16rem;
-  padding: 0.6875rem 0.625rem;
   border: 1px solid #fff;
-  background: transparent;
+  padding: 0.6875rem 0.625rem;
   color: #fff;
   font-size: 1.375rem;
   line-height: 1.625rem;
   text-align: center;
   text-transform: uppercase;
+  background: transparent;
   cursor: pointer;
 }
 
@@ -154,10 +154,10 @@
 }
 
 .lots__heading {
-  margin-left: 2.5rem;
   margin-bottom: 1.6875rem;
-  font-size: 2.5rem;
+  margin-left: 2.5rem;
   font-weight: 700;
+  font-size: 2.5rem;
   line-height: 2.9375rem;
   text-transform: uppercase;
 }
@@ -171,8 +171,8 @@
 .card-link {
   display: block;
   height: 100%;
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
 }
 
 .card {
@@ -183,8 +183,8 @@
   gap: 1.5rem;
   min-height: 37.25rem;
   padding: 3rem 2.5rem;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
 .card_type_film {
@@ -201,11 +201,11 @@
 
 .card__title {
   position: relative;
-  font-size: 1.375rem;
   font-weight: 700;
+  font-size: 1.375rem;
   line-height: 1.2;
-  text-transform: uppercase;
   text-decoration-line: underline;
+  text-transform: uppercase;
 }
 
 .card__text {
@@ -222,17 +222,17 @@
   line-height: 1.4375rem;
   text-decoration: underline;
   text-decoration-thickness: 0.05em;
-  text-underline-offset: 0.25em;
   text-decoration-skip-ink: none;
+  text-underline-offset: 0.25em;
 }
 
 .about {
   display: flex;
   align-items: flex-start;
   gap: 4.5rem;
+  max-height: 595px;
   margin-top: 7.5rem;
   padding: 0 1.5rem;
-  max-height: 595px;
 }
 
 .about__column_logo {
@@ -243,8 +243,8 @@
 
 .about__logo {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
@@ -264,8 +264,8 @@
 
 .about__title {
   margin-bottom: 6.25rem;
-  font-size: 2.5rem;
   font-weight: 700;
+  font-size: 2.5rem;
   line-height: 2.9375rem;
   text-transform: uppercase;
 }
@@ -283,9 +283,9 @@
   width: 1px;
   height: 1px;
   margin: -1px;
+  border: 0;
   padding: 0;
   overflow: hidden;
-  border: 0;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
@@ -300,17 +300,17 @@
 }
 
 .footer__menu-list {
-  text-align: center;
   font-size: 1.125rem;
   line-height: 1.3125rem;
+  text-align: center;
 }
 
 .footer__menu-link {
   display: inline-block;
   text-decoration: underline;
   text-decoration-thickness: 0.05em;
-  text-underline-offset: 0.25em;
   text-decoration-skip-ink: none;
+  text-underline-offset: 0.25em;
 }
 
 .footer__menu-link-active {
@@ -319,14 +319,14 @@
 
 .footer__social-list {
   display: flex;
-  gap: 3rem;
   justify-self: end;
+  gap: 3rem;
 }
 
 .footer__social-link {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 3rem;
   height: 3rem;
   border: 1px solid #000;
